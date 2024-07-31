@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Projeto Luta</title>
+  </head>
+  <body>
+    <div class="title">
+      <div>
+        <h1>Luta de Personagens</h1>
+      </div>
+    </div>
+    <!-- 
+      Projeto luta usando orientação a objetos.
+     -->
+
+    <div class="fightarea">
+      <!-- area do primeiro jogador -->
+      <div id="char">
+        <!-- area do personagem -->
+        <div class="lifebar">
+          <!-- barra de vida -->
+          <div class="bar"></div>
+          <!-- barra que mostra a vida -->
+        </div>
+        <strong class="name">---</strong>
+        <!-- nome do personagem em vermelho -->
+
+        <div>
+          <!-- botão para atacar -->
+          <button class="attackbutton">Atacar</button>
+        </div>
+      </div>
+
+      <div id="monster">
+        <!-- area do segundo jogador -->
+        <div class="lifebar">
+          <div class="bar"></div>
+        </div>
+
+        <strong class="name">---</strong>
+        <div>
+          <button class="attackbutton">Atacar</button>
+        </div>
+      </div>
+    </div>
+    <!-- ul para exibir os logs em tela -->
+    <ul class="log"></ul>
+
+    <script type="module" src="./assets/scritp.js"></script>
+  </body>
+</html>
