@@ -24,9 +24,8 @@ O projeto está estruturado da seguinte forma:
 Para executar o projeto localmente, siga estas etapas:
 
 1. Clone este repositório em seu computador:
-
-
 2. Abra o arquivo `index.html` em seu navegador web.
+3. Ou copie o link para ver o projeto no ar `https://aleckdevv.github.io/AleckDevv-projeto-luta-personagens.github.io/`
 
 ## Autor
 
